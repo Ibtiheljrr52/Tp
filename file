@@ -4,8 +4,29 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'build'
+                
+            }
+        }
+stages {
+        stage('Hello') {
+            steps {
+               
                 echo 'deploy'
+               
+            }
+        }
+stages {
+        stage('Hello') {
+            steps {
+                
                 echo'test'
+                
+            }
+        }
+stages {
+        stage('Hello') {
+            steps {
+        
                 echo'release'
             }
         }
